@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+   --startColor: hsl(0, 100%, 75%);
+   --stopColor: hsl(0, 100%, 75%);
+}
+
+body {
+   @apply bg-gray-900;
+   color: #fff;
+   text-align: center;
+}
+
+/* svg {
+   width: 40vmin;
+   height: 40vmin;
+} */
+
+path {
+   cursor: pointer;
+}
